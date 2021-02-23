@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dotted red; */
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #40c771;
+    overflow: hidden;
+}
+
+
+.img-thank{
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    /* top: 20vh; */
+    width: 25%;
+    top: 0;
+    right: 0;
+}
+
+.indention {
+  display: inline-block;
+}
+
+p.done-p {
+  position: absolute;
+  width: 30%;
+  top: 10%;
+  left: 35%;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h1.ml8 {
+    font-weight: 900;
+    font-size: 4.5em;
+    color: #40c771;
+    width: 3em;
+    height: 3em;
+  }
+  
+  .ml8 .letters-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 1em;
+    text-align: center;
+  }
+  
+  .ml8 .letters {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    line-height: 0.7em;
+    right: -0.12em;
+    top: -0.2em;
+  }
+  
+  .ml8 .bang {
+    font-size: 1.4em;
+    top: auto;
+    left: -0.06em;
+  }
+  
+  .ml8 .circle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .ml8 .circle-white {
+    width: 3em;
+    height: 3em;
+    border: 2px dashed white;
+    border-radius: 2em;
+  }
+  
+  .ml8 .circle-dark {
+    width: 2.2em;
+    height: 2.2em;
+    background-color: #fff;
+    border-radius: 3em;
+    z-index: 1;
+  }
+  
+  .ml8 .circle-dark-dashed {
+    border-radius: 2.4em;
+    background-color: transparent;
+    border: 2px dashed #fff;
+    width: 2.3em;
+    height: 2.3em;
+  }
+
+  .btn-back {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 85%;
+      left: 50%;
+      border-radius: 15px;
+      border: 4px solid #fff;
+      width: 15vw;
+      height: 6vh;
+  }
+  .stripe{
+    top: 80%;
+  }
+  .stripe a {
+    cursor: pointer;
+  }
+  .btn-back a, .btn-back button {
+      text-decoration: none;
+      color: #fff;
+      width: 100%;
+      font-weight: 700;
+      font-size: 1.4rem;
+      text-align: center;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+  }
+  .btn-back button {
+    font-size: 1.2rem;
+    border: none;
+    background: none;
+  }
+  .btn-back:hover{
+    background: #fff;
+    color: #40c771;
+}   
+.btn-back a:hover, .btn-back button:hover{
+    color: #40c771;
+}
+
+/* canceled.html */
+.backPay {
+    top: 70%;
+}
+
+.backHome {
+    top: 80%;
+}
+
+.cenceled-p{
+  position: absolute;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 40%;
+  font-size: 1.2rem;
+}
+
+/* checkout.html */
+
+h3{
+  font-size: 3rem;
+  text-align: center;
+  margin: 10vh 10vw;
+  color: #fff;
+}
+.checkout-flex{
+  display: flex;
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-box{
+  margin-top: 8vh;
+  width: 50%;
+  color: #fff;
+}
+.flex-box p{
+  width: 65%;
+  font-size: 1.3rem;
+  margin-left: 30px;
+}
+
+.flex-box img.img-checkout{
+  width: 80%;
+  height: auto;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 480px){
+    .btn-back {
+        width: 60vw;
+        height: 5vh;
+    }
+    .btn-back a {
+        font-size: 1rem;
+    }
+    .img-thank{
+        width: 50%;
+        top: 0;
+        right: 0;
+    }
+    p.done-p {
+      width: 80%;
+      top: 4%;
+      left: 10%;
+      color:#000;
+      font-size: 0.8rem;
+      text-align: left;
+      z-index: 10;
+    }
+
+
+/* checkout.html sp */
+
+h3{
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 10vh 10vw;
+  color: #fff;
+}
+.checkout-flex{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.border{
+  background-image: url('../img/border.png');
+  height: 7px;
+  margin-top: 5vh;
+}
+
+.flex-box{
+  margin-top: 20px;
+  width: 100%;
+}
+.flex-box p{
+  width: 80%;
+  font-size: 0.9rem;
+  margin-left: 40px;
+}
+
+.flex-box img.img-checkout{
+  width: 80%;
+  height: auto;
+  margin-left: 30px;
+}
+
+.stripe{
+  top: 90%;
+}
+.btn-minna {
+  top: 93%;
+}
+}

@@ -1,0 +1,148 @@
+/* *{
+  outline: 1px dotted red;
+} */
+
+.form{
+  text-align: center;
+  margin: 0 323px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+}
+label, input{
+  font-size: 1rem;
+}
+.form h1{
+  font-size: 40px;
+  margin: 85px 0;
+}
+p.form-explain{
+  margin-bottom: 10vh;
+}
+.top_img{
+  margin-top: 134px;
+}
+.top_img img{
+  display: block;
+  margin: 0 auto;
+}
+.form_item{
+  margin-bottom: 24px;
+}
+.form_item label{
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.form_item input,.form_item select{
+  width: 650px;
+  height: 35px;
+  border: 0;
+  background-color: #F8F8F8;
+}
+
+.select-belong {
+  width: 650px;
+  margin: 0 auto;
+  display: flex;
+}
+.select-belong label, .select-belong input{
+  text-align: center;
+  width: 300px;
+  font-size: 1rem;
+}
+.whatdo-belong {
+  width: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap
+  /* text-align: center; */
+}
+.whatdo-belong label{
+  width: calc(650px/3);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.whatdo-belong input{
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+.channel {
+  width: 650px;
+  margin: 0 auto;
+}
+.channel label{
+  width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.channel input{
+  width: 30px;
+  height: 30px;
+}
+textarea {
+  width: 650px;
+}
+.send{
+  margin-top: 129px;
+}
+.send .enter{
+  display: block;
+  margin: 0 auto;
+  margin-top: 33px;
+  margin-bottom: 90px;
+  background: #000;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 7px rgba(0,0,0,0.1) ;
+  width: 350px;
+}
+.btn input{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 21px 57px 15px 58px;
+}
+a.policy-btn {
+  text-decoration: underline;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 480px){
+  .form h1 {
+    font-size: 25px;
+    margin: 59px 0;
+  }
+  .top_img img{
+    width: 297px;
+  }
+  .form{
+    margin: 0 26px;
+  }
+  .form_item input,.form_item select {
+    width: 320px;
+    width: 80%;
+  }
+  .channel {
+    width: 650px;
+    margin: 0 auto;
+  }
+  .channel label{
+    width: 320px;
+    margin-left: 2rem;
+  }
+  .channel input{
+    width: 20px;
+    height: 20px;
+  }
+  .send {
+    margin-top: 48px;
+  }
+}
